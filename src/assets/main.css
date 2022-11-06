@@ -1,0 +1,75 @@
+@import './base.css';
+@import './modal.css';
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+
+  font-weight: normal;
+}
+
+button,
+input[type=submit] {
+  font-size: 1.0rem;
+  font-weight: bold;
+}
+
+.search-wrapper input {
+  font-size: 1.5rem;
+  width: 100%;
+  margin: 1rem 0 0.25rem 0;
+}
+
+.card {
+  width: 100%;
+  display: grid;
+
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  border: 2px solid var(--vt-c-white);
+  border-radius: 1%/25%;
+
+  background-color: var(--color-background-soft);
+  transition: 0.5s ease;
+}
+
+.card:hover {
+  background-color: var(--color-background-hover);
+}
+
+.clickableCard:hover {
+  cursor: pointer;
+}
+
+.bigButton {
+  padding: 1rem;
+  width: 100%;
+}
+
+.createButton,
+.updateButton {
+  border-color: #05be2d;
+  background-color: #0ed350;
+}
+
+.deleteButton {
+  border-color: #a82121;
+  background-color: #ff0000;
+}
+
+textarea {
+  resize: none;
+}
+
+input[type=checkbox] {
+  transform: scale(1.5);
+}
+
+#endComponent {
+  display: flex;
+}
+
+#endComponent button {
+  flex-grow: 1;
+}
