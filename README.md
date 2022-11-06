@@ -1,14 +1,13 @@
 # lab-demonstrating
 
-This template should help get you started developing with Vue 3 in Vite.
+A web app front end for a [REST api project](https://github.com/Gamma749/LabDemonstratingRESTAPI). 
 
-## Recommended IDE Setup
+This project was slapped together in a week, starting with no experience with Vue. If I had the time again I would build this application in a much cleaner way, with better components, management of state, and understanding of Vue. However, as it stands, this project has two important properties:
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+1. The application works
+2. It isn't slow or extravagantly large
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+And so I am happy to leave this particular project here and move on to other projects with lessons learned.
 
 ## Project Setup
 
